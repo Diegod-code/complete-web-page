@@ -1,0 +1,93 @@
+*  {
+font-family: "sen", sans-serif;
+font-weight: 100;
+
+
+}
+
+body {
+
+
+        width: 1050px;
+        margin: 25px auto;
+        
+            background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+            background-color: mediumspringgreen;
+            background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+            background-repeat: repeat;
+        
+        
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(134, 173, 245);
+    margin: 50px 30px;
+    border: 10px solid black
+}
+
+.form {
+
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.form__input {
+  
+    width: 100%;
+    padding: 7px;
+    margin: 9px 0;
+    border: none;
+    border-bottom: 3px solid rgb(64, 64, 172);
+ 
+
+}
+
+.form textarea {
+
+    min-height: 140px;
+    border-bottom: 3px solid rgb(64, 64, 172);
+    resize: none;
+
+
+}
+
+
+.form-img {
+
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    min-width: 200px;
+    
+}
+
+.form-img img {
+
+    width: 60%;
+    margin: auto;
+   
+}
+
+
+.form input[type="submit"] {
+
+background-color: lightseagreen;
+padding: 7px;
+
+}
+
+
+.form input[type="submit"]:active {
+
+background: linear-gradient(to bottom, rgb(68, 243, 147), rgb(3, 165, 49)); 
+padding: 7px;
+
+
+}
